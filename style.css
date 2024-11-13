@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'space mono'; 
+	src: url("assets/SpaceMono-Regular.woff"); 
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'space mono'; 
+	src: url("assets/SpaceMono-Bold.woff"); 
+	font-weight: bold;
+}
+
+body {
+	background: black;
+	color: white;
+}
+
+#stage {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	font-size: 7.4vw;
+	font-weight: bold;
+	letter-spacing: 0.3vw;
+	line-height:90%;
+	font-family: 'space mono', monospace;
+	cursor: pointer;
+}
+
+a,a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.active {
+	filter: blur(10px);
+}
